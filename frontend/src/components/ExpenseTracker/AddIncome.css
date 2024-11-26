@@ -1,0 +1,123 @@
+/* AddExpense Component Styles */
+.add-expense {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  
+  .add-expense h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .add-expense form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  .add-expense .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .add-expense .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .add-expense .form-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .add-expense .form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-expense .form-group button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table td button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  table td button:hover {
+    background-color: #45a049;
+  }
+  
+  table td button.delete {
+    background-color: #e74c3c;
+  }
+  
+  table td button.delete:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Mobile Styling */
+  @media (max-width: 768px) {
+    .add-expense {
+      padding: 1rem;
+    }
+  
+    .add-expense h2 {
+      font-size: 1.5rem;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  
+    table th, table td {
+      padding: 8px;
+    }
+  
+    table td button {
+      padding: 4px 8px;
+    }
+  }
+  

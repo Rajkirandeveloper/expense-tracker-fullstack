@@ -1,5 +1,5 @@
 # Node modules in the frontend
-/frontend-react/node_modules/
+/frontend/node_modules/
 
 # Node modules in the backend
 /backend/node_modules/

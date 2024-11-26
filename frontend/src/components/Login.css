@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    color:  maroon;
+    margin-bottom: 10px;
+}
+.error{
+    color: white !important;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+
+
+
+
+

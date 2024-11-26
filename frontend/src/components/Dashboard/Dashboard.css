@@ -1,0 +1,109 @@
+/* Dashboard Container */
+.dashboard {
+    background-color: #7d9fda;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .dashboard h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Summary Section */
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .summary div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .summary div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .summary p {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Charts Section */
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .chart {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    min-height: 300px;
+  }
+  
+  .chart h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Chart Container */
+  .chart canvas {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Loading State */
+  .loading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #555;
+    margin-top: 50px;
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 768px) {
+    .summary {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .summary div {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  
+    .charts {
+      flex-direction: column;
+    }
+  
+    .chart {
+      width: 100%;
+    }
+  }
+  
