@@ -1,0 +1,12 @@
+# Node modules in the frontend
+/frontend-react/node_modules/
+
+# Node modules in the backend
+/backend/node_modules/
+
+# Other common files/folders to ignore (optional)
+*.log
+*.env
+.DS_Store
+npm-debug.log
+yarn-error.lognode_modules
