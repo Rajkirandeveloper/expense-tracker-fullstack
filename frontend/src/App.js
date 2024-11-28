@@ -78,7 +78,7 @@ const App = () => {
         </nav>
 
         <Routes>
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/register" element={<SignUp />} />
           <Route path="/login" exact element={<Login />} />
           <Route path="/" element={<ProtectedRoute component={Dashboard} />} />
           <Route
