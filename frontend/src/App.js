@@ -74,6 +74,11 @@ const App = () => {
               
               </li>
             )}
+
+<li>
+                 <Link to="/register" >signup</Link>
+               
+              </li>
           </ul>
         </nav>
 

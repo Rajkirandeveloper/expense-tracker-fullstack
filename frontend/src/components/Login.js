@@ -51,7 +51,7 @@ const Login = () => {
                 />
                 <button type="submit">Login</button>
 
-                <p>Not Registred    <a  style={{color:"blue",fontWeight:"bold"}}href="/register">SignUp</a></p>
+                <p>Not Registred    <span style={{color:"blue",fontWeight:"bold"}} onClick={navigate('/register')}>signup</span></p>
             </form>
             </div>
             {error && <p className='error'>{error}</p>}
