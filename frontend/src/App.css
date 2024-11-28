@@ -121,9 +121,9 @@ nav ul li a:hover {
     margin-left: 30px;
   }
   .mobile-container{
-   
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
