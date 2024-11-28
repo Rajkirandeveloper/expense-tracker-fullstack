@@ -6,7 +6,8 @@ const authRoutes = require("./routes/authRoutes");
 const expenseRoutes=require("./routes/expenseRoutes")
 const incomRoutes=require("./routes/incomeRoutes")
 require('dotenv').config();  
-const dbURI = process.env.Local_Connection_Str;
+const dbURI = process.env.DBS;
+console.log(dbURI)
 
 // Connect to MongoDB using Mongoose
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
